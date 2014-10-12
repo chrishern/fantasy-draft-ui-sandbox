@@ -1,0 +1,160 @@
+@font-face {
+  font-family: impact;
+  src: url(../fonts/impact.ttf);
+}
+
+body {
+  font-size: 14px;
+  background-image: url(../img/grassEffectTramline.png);
+  background-position: left top;
+  background-repeat: repeat;
+  font-family: impact;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  /*font-family: helvetica, arial, sans-serif;*/
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.navbar {
+  background: transparent;
+  border: none;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/grassEffectTramline.png);
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.navbar-header {
+  float:none;
+}
+
+.navbar-logo {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  height:115px;
+  width: 1000px;
+}
+
+.navbar {
+  color: #000;
+  font-family: georgia, serif;
+  font-weight: bold;
+}
+
+label {
+  font-weight: normal;
+}
+
+.feature-photo {
+  width: 100%;
+}
+
+#header { 
+  max-width: 1000px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.strapline {
+  font-size: 42px;
+  margin-bottom: 90px;
+}
+
+.form-group {
+  font-size: 20px;
+}
+
+.infoBoxesParent {  
+  background-image: url(../img/grassEffectTramline.png);
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.infoBoxes {
+  padding-top: 2em;
+  background-color: #000000;
+  border-top: thick solid #37B34A;
+}
+
+.loginForm {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+footer {
+  background: #000000;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.2em 0 0.6em;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+/**
+* iPad
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .col-lg-8 {
+    width: 66.6667%;
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33.3333%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-photo {
+    margin: 0.1em 0;
+  }
+  
+  .strapline {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }  
+
+  .navbar-logo {
+    width: 100%;
+  }
+
+  img {
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  
+  footer .pull-right {
+    display: none;
+  }
+
+  .strapline {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-logo {
+    width: 100%;
+  }
+
+  img {
+    width: 100%; 
+  }
+}
