@@ -19,33 +19,12 @@ body, h1, h2, h3, h4, h5, h6 {
   max-width: 1000px;
 }
 
-.navbar {
-  background: transparent;
-  border: none;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/grassEffectTramline.png);
-  background-position: left top;
-  background-repeat: repeat;
-}
-
-.navbar-header {
-  float:none;
-}
-
-.navbar-logo {
+.main-logo {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   height:115px;
   width: 1000px;
-}
-
-.navbar {
-  color: #000;
-  font-family: georgia, serif;
-  font-weight: bold;
 }
 
 label {
@@ -131,8 +110,7 @@ footer {
     font-size: 32px;
     margin-bottom: 20px;
   }  
-
-  .navbar-logo {
+  .main-logo {
     width: 100%;
   }
 
@@ -155,7 +133,7 @@ footer {
     margin-bottom: 10px;
   }
 
-  .navbar-logo {
+  .main-logo {
     width: 100%;
   }
 
