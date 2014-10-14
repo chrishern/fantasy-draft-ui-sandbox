@@ -1,0 +1,79 @@
+.col-md-2 {
+	padding-right: 0em;
+	padding-left: 2em;
+}
+
+.col-sm-2 {
+	padding-right: 0em;
+	padding-left: 2em;
+}
+
+.col-md-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-sm-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-md-7 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-sm-7 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.teamSelection {
+	background-color: #FFFFFF;
+}
+
+.firstElevenSelection {
+	background-image: url(../img/pitch.png);
+	background-position: left top;
+  	background-repeat: no-repeat;
+	width: 100%;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.subRowHeader {
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-left: 0.7em;
+	padding-top: 1.25em;
+}
+
+.subRow {
+	padding-top: 2em;
+}
+
+#goalkeeper {
+	padding-top: 5em;
+}
+
+#defenders {
+	padding-top: 5em;
+}
+
+#midfielders {
+	padding-top: 5em;
+}
+
+#strikers {
+	padding-top: 5em;
+	padding-bottom: 5em
+}
+
+.positionRow {
+	width: 100%;
+	margin-left: 3.3em;
+}
+
+.notApplicablePosition {
+	visibility: hidden;
+}
