@@ -131,6 +131,16 @@ footer {
   max-width: 1000px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.clearing {
+  clear: both;
+}
+
 @media screen and (max-width: 1200px) {
   
 }
@@ -148,6 +158,10 @@ footer {
     width: 33.3333%;
     float: left;
   }
+
+  .main-logo {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -162,10 +176,6 @@ footer {
   
   .main-logo {
     width: 100%;
-  }
-
-  img {
-    width: 100%; 
   }
 }
 
@@ -185,9 +195,5 @@ footer {
 
   .main-logo {
     width: 100%;
-  }
-
-  img {
-    width: 100%; 
   }
 }
