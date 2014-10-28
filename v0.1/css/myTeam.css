@@ -12,7 +12,6 @@
 .col-md-3 {
 	padding-right: 0px;
 	padding-left: 0px;
-	/*margin-right: 2em;*/
 }
 
 .col-sm-3 {
@@ -131,4 +130,49 @@
 
 .notApplicablePosition {
 	visibility: hidden;
+}
+
+@media screen and (max-width: 320px) {
+	.playerStrip {
+		width: 70% !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+  	.firstElevenSelection {
+  		background-size: 100%;
+		margin-left: 0em;
+	}
+
+	.playerName {
+		text-align: center;
+		font-size: 12px;
+	}
+
+	.playerStrip {
+		width: 80%;
+	}
+
+	.positionRow {
+		margin-left: 10%;
+	}
+
+	#goalkeeper {
+		padding-top: 15%;
+	}
+
+	.subRow {
+		float: left;
+	}
+
+	.subRowHeader {
+		padding-top: 0em;
+	}
+
+	.teamDetails {
+		display: block;
+		position: relative;
+		top: 10%;
+		/*visibility: hidden;*/
+	}
 }
