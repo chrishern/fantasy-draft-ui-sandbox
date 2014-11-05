@@ -3,6 +3,11 @@
   src: url(../fonts/impact.ttf);
 }
 
+@font-face {
+  font-family: fira;
+  src: url(../fonts/firasans-bold.otf);
+}
+
 body {
   background-image: url(../img/grassEffectTramline.png);
   font-size: 14px;
