@@ -1,0 +1,34 @@
+.leagueTable {
+	margin-top: 2.5%;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.leagueName {
+	color: #FFFFFF;
+	font-weight: normal !important;
+}
+
+.leagueTableHeader {
+	background-color: #37B34A;
+	color: #000000;
+	font-weight: normal !important;
+}
+
+.leagueTableHeaderCell {
+	text-align: center;
+}
+
+.leagueTableTeam {
+	color: #FFFFFF;
+}
+
+.teamPosition {
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  	.leagueTable {
+  		font-size: 12px;
+	}
+}
